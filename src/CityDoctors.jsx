@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./CityDoctors.css"
-import DoctorCard from './DoctorCard'
+import DoctorCard from './DoctorCard.jsx'
 import {useParams } from "react-router-dom"
 
 const CityDoctors = () => {

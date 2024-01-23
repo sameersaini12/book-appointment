@@ -1,7 +1,7 @@
 import './App.css';
 import {BrowserRouter , Route , Routes} from "react-router-dom"
-import LandingPage from './LandingPage';
-import CityDoctors from './CityDoctors';
+import LandingPage from './LandingPage.jsx';
+import CityDoctors from './CityDoctors.jsx';
 
 function App() {
   return (

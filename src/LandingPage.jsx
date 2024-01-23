@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import ConsultationForm from './ConsultationForm'
-import DoctorCard from './DoctorCard'
+import DoctorCard from './DoctorCard.jsx'
 import "./LandingPage.css"
 import { useEffect } from 'react'
 import HeroImage from "./doctor.jpg"
