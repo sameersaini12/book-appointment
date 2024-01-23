@@ -10,7 +10,7 @@ const LandingPage = () => {
 
     const handleFindAllDoctors = async() => {
         const doctorListResponse = await fetch(
-            `http://localhost:3000/alldoctors`,
+            `https://fixhealthapp.onrender.com/alldoctors`,
             {
                 method : "GET",
                 headers : { "Content-Type": "application/json" }

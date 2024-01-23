@@ -10,7 +10,7 @@ const CityDoctors = () => {
 
     const handleSubmit = async () => {
         const doctorListResponse = await fetch(
-            `http://localhost:3000/doctors`,
+            `https://fixhealthapp.onrender.com/doctors`,
             {
                 method : "POST",
                 headers : { "Content-Type": "application/json" },
